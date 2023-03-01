@@ -1,0 +1,132 @@
+:root {
+	--primaryColor: #003F91;
+	--secondaryColor: #5DA9E9;
+	--lightColor: white;
+	--darkColor: black;
+	--darkerColor: #020102;
+/*
+	--primaryColor: #8956f1;
+    --secondaryColor: #cb80ff;
+    --lightColor: #FCFBF4;
+    --darkColor: #241b35;
+    --darkerColor: #020102;
+*/
+	--mSize: 20px;
+	--sSize: calc(var(--mSize) * 0.5);
+	--lSize: calc(var(--lSize) * 1.5);
+	--xlSize: calc(var(--mSize) * 2);
+	--xxlSize: calc(var(--mSize) * 5);
+}
+
+body{
+    background-color: var(--darkColor);
+    margin: 0;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+    gap: var(--mSize);
+
+	overflow: hidden;
+}
+
+#title{
+    margin-top: var(--sSize);
+    font-size: var(--mSize);
+}
+
+h1{
+    color: var(--primaryColor);
+    margin: 0;
+}
+
+span{
+    color: var(--lightColor);
+    text-decoration: underline;
+	transition: all .1s ease;
+}
+
+span:hover{
+	color: var(--secondaryColor);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--mSize);
+	justify-content: space-evenly;
+	width: 90vw;
+}
+
+#randomName {
+	color: var(--lightColor);
+	font-size: var(--mSize);
+	font-weight: bolder;
+	height: var(--mSize);
+	/*margin-bottom: 10px;*/
+}
+
+#students {
+	width: 70vw;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.studentInfo {
+	color: var(--lightColor);
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	border-bottom: 1px solid var(--secondaryColor);
+	height: 25px;
+	padding: 10px;
+	align-items: center;
+	border-radius: 80px;
+}
+
+h3 {
+	color: var(--lightColor);
+	margin: 0;
+}
+
+.upButtons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 30px;
+}
+
+.button {
+	color: var(--lightColor);
+	border-top: 2px solid var(--secondaryColor);
+	border-radius: 50px;
+	padding: 10px;
+	transition: all ease .1s;
+	font-weight: bolder;
+}
+
+.button:hover{
+	border-top: none;
+	border-bottom: 2px solid var(--secondaryColor);
+	background-color: var(--primaryColor);
+}
+
+.button.last{
+	border-top: none;
+	border-bottom: 2px solid var(--secondaryColor);
+}
+
+
+.button.last:hover{
+	border-bottom: none;
+	border-top: 2px solid var(--secondaryColor);
+}
+
+.hide{
+	display: none;
+}

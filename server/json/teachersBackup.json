@@ -1,0 +1,79 @@
+{
+    "teachers": [
+        {
+            "id": 0,
+            "username": "admin",
+            "password": "admin",
+            "namesPool": [
+                "Anna",
+                "Mehmet",
+                "Alexander",
+                "Liam",
+                "My",
+                "Matilda",
+                "Melinda",
+                "..."
+            ]
+        },
+        {
+            "id": 1,
+            "username": "erik",
+            "password": "erik",
+            "namesPool": [
+                "Anna",
+                "Mehmet",
+                "Alexander",
+                "Liam",
+                "My",
+                "Matilda",
+                "Melinda",
+                "..."
+            ]
+        },
+        {
+            "id": 2,
+            "username": "sebbe",
+            "password": "sebbe",
+            "namesPool": [
+                "Anna",
+                "Mehmet",
+                "Alexander",
+                "Liam",
+                "My",
+                "Matilda",
+                "Melinda",
+                "..."
+            ]
+        },
+        {
+            "id": 3,
+            "username": "guest",
+            "password": "guest",
+            "namesPool": [
+                "Anna",
+                "Mehmet",
+                "Alexander",
+                "Liam",
+                "My",
+                "Matilda",
+                "Melinda",
+                "..."
+            ]
+        },
+        {
+            "id": 4,
+            "username": "test",
+            "password": "test",
+            "namesPool": [
+                "Anna",
+                "Mehmet",
+                "Alexander",
+                "Liam",
+                "My",
+                "Matilda",
+                "Melinda",
+                "..."
+            ]
+        }
+    ]
+}
