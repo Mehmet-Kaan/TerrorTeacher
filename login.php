@@ -69,7 +69,7 @@ function createNewUser($username, $password)
                 "My",
                 "Matilda",
                 "Melinda",
-                "..."
+                "Caspian"
             ]
         ];
 
